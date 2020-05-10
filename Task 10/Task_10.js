@@ -1,0 +1,12 @@
+var test;
+document.getElementById("decl").innerHTML = "Vale after variable declation is : " + test;
+test = 5;
+document.getElementById("init").innerHTML = "Initial Value is : " + test;
+test++;
+document.getElementById("inc").innerHTML = "Vale after increment is : " + test;
+test = test + 7;
+document.getElementById("add").innerHTML = "Vale after addition is : " + test;
+test--;
+document.getElementById("dec").innerHTML = "Vale after decrement is : " + test;
+test = test % 12;
+document.getElementById("rem").innerHTML = "The Remainder is : " + test;

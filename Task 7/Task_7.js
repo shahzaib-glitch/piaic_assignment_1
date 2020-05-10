@@ -1,0 +1,2 @@
+document.getElementById("heading").innerHTML = "Rules For Naming JS Variables";
+document.getElementById("fib").innerHTML = "Variable names can only contain numbers, $ , and _. For example $my_1stVariable.\n Variables must begin with a letter, $ or_. For example $name, _name or name.\n Variable names are case sensitive.\n Variable names should not be JS Keywords";

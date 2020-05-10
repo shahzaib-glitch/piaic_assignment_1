@@ -1,0 +1,13 @@
+var a = 3;
+var b = 5;
+var sub;
+var mul;
+var div;
+sub = a - b;
+mul = a * b;
+div = a / b;
+mod = a % b;
+document.getElementById("sub_op").innerHTML = "Subtration of " + a + " and " + b + " is " + sub;
+document.getElementById("mul_op").innerHTML = "Multiplication of " + a + " and " + b + " is " + mul;
+document.getElementById("div_op").innerHTML = "Division of " + a + " and " + b + " is " + div;
+document.getElementById("mod_op").innerHTML = "Modulus of " + a + " and " + b + " is " + mod;
